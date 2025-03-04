@@ -10,10 +10,10 @@ function Navbar() {
       </div>
 
       <div className="navbar-links">
-        <Link to="/" className="nav-link">
+        <Link to="/movies-app" className="nav-link">
           Home{" "}
         </Link>
-        <Link to="/favorites" className="nav-link">
+        <Link to="/movies-app/favorites" className="nav-link">
           Favorites
         </Link>
       </div>
